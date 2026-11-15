@@ -1,0 +1,12 @@
+옆자리 · 차량용 시연 앱
+
+이 앱은 PLEOS Vehicle SDK 2.3.2 및 제3자 Android/Java 라이브러리를 사용합니다.
+정확한 버전과 원본 아카이브/추출 JAR 해시는 licenses/dependencies-lock.json에 있습니다.
+37개 의존성에 Apache License 2.0 선언 또는 소스 근거가 확인되었습니다.
+Apache License 2.0 전문: licenses/Apache-2.0.txt
+javax.inject 1: Copyright (C) 2009 The JSR-330 Expert Group.
+
+공식 원본 POM/고지 근거는 licenses/evidence와 dependency-license-metadata.json을 참조하세요.
+이 파일은 각 저작권자의 원본 고지를 대체하지 않습니다.
+Vehicle, vehicle-aidl, vehicle-data의 개별 배포 조건 및 포함 코드의 추가 고지는 최종 확인 중입니다.
+앱 자체 코드의 배포 라이선스는 저작권자가 정하며 여기서 임의로 부여하지 않습니다.

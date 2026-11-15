@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" package="app.pleos.coachboundary.integrated" android:versionCode="2" android:versionName="0.3-integrated-demo">
+<uses-sdk android:minSdkVersion="30" android:targetSdkVersion="35" />
+
+<uses-permission android:name="pleos.car.permission.CAR_DRIVE" /><application android:debuggable="false" android:appCategory="productivity" android:label="옆자리 · 시연" android:theme="@android:style/Theme.Material.NoActionBar" android:allowBackup="false">
+<activity android:name="app.pleos.coachboundary.MainActivity" android:exported="true"><intent-filter><action android:name="android.intent.action.MAIN" /><category android:name="android.intent.category.LAUNCHER" /></intent-filter></activity>
+<meta-data android:name="ai.pleos.playground.service.vehicle.min_version_name" android:value="2.3.13" />
+        <meta-data android:name="ai.pleos.playground.service.vehicle.min_version_code" android:value="65" />
+        <meta-data android:name="ai.pleos.playground.sdk.vehicle.current_version_name" android:value="2.3.2" />
+        <meta-data android:name="ai.pleos.playground.sdk.vehicle.current_version_code" android:value="73" />
+    <uses-library android:name="ai.pleos.playground.car" android:required="true" /></application><uses-permission android:name="ai.pleos.playground.service.vehicle.VEHICLE_BINDING" />
+
+    <queries tools:node="merge">
+        <intent>
+            <action android:name="ai.pleos.playground.vehicle.VEHICLE_START" />
+        </intent>
+    </queries>
+
+    </manifest>

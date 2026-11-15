@@ -1,0 +1,202 @@
+[
+  {
+    "dependency": "Vehicle-2.3.2.jar",
+    "artifact": "Vehicle-2.3.2.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "activity-1.5.1.jar",
+    "artifact": "activity-1.5.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "annotation-1.2.0.jar",
+    "artifact": "annotation-1.2.0.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "annotation-experimental-1.3.1.jar",
+    "artifact": "annotation-experimental-1.3.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "annotations-13.0.jar",
+    "artifact": "annotations-13.0.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "collection-1.1.0.jar",
+    "artifact": "collection-1.1.0.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "concurrent-futures-1.0.0.jar",
+    "artifact": "concurrent-futures-1.0.0.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "core-1.8.0.jar",
+    "artifact": "core-1.8.0.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "core-common-2.1.0.jar",
+    "artifact": "core-common-2.1.0.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "core-ktx-1.8.0.jar",
+    "artifact": "core-ktx-1.8.0.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "core-runtime-2.1.0.jar",
+    "artifact": "core-runtime-2.1.0.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "customview-1.0.0.jar",
+    "artifact": "customview-1.0.0.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "dagger-2.51.1.jar",
+    "artifact": "dagger-2.51.1.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "dagger-lint-aar-2.51.1.jar",
+    "artifact": "dagger-lint-aar-2.51.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "fragment-1.5.1.jar",
+    "artifact": "fragment-1.5.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "gson-2.10.1.jar",
+    "artifact": "gson-2.10.1.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "hilt-android-2.51.1.jar",
+    "artifact": "hilt-android-2.51.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "hilt-core-2.51.1.jar",
+    "artifact": "hilt-core-2.51.1.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "javax.inject-1.jar",
+    "artifact": "javax.inject-1.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "jsr305-3.0.2.jar",
+    "artifact": "jsr305-3.0.2.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "kotlin-reflect-1.9.25.jar",
+    "artifact": "kotlin-reflect-1.9.25.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "kotlin-stdlib-1.9.25.jar",
+    "artifact": "kotlin-stdlib-1.9.25.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "kotlin-stdlib-jdk7-1.8.0.jar",
+    "artifact": "kotlin-stdlib-jdk7-1.8.0.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "kotlin-stdlib-jdk8-1.8.0.jar",
+    "artifact": "kotlin-stdlib-jdk8-1.8.0.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "kotlinx-coroutines-android-1.6.3.jar",
+    "artifact": "kotlinx-coroutines-android-1.6.3.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "kotlinx-coroutines-core-jvm-1.6.3.jar",
+    "artifact": "kotlinx-coroutines-core-jvm-1.6.3.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "lifecycle-common-2.5.1.jar",
+    "artifact": "lifecycle-common-2.5.1.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "lifecycle-livedata-2.0.0.jar",
+    "artifact": "lifecycle-livedata-2.0.0.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "lifecycle-livedata-core-2.5.1.jar",
+    "artifact": "lifecycle-livedata-core-2.5.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "lifecycle-runtime-2.5.1.jar",
+    "artifact": "lifecycle-runtime-2.5.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "lifecycle-viewmodel-2.5.1.jar",
+    "artifact": "lifecycle-viewmodel-2.5.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "lifecycle-viewmodel-savedstate-2.5.1.jar",
+    "artifact": "lifecycle-viewmodel-savedstate-2.5.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "listenablefuture-1.0.jar",
+    "artifact": "listenablefuture-1.0.jar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "loader-1.0.0.jar",
+    "artifact": "loader-1.0.0.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "savedstate-1.2.0.jar",
+    "artifact": "savedstate-1.2.0.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "tracing-1.0.0.jar",
+    "artifact": "tracing-1.0.0.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "vehicle-aidl-1.1.1.jar",
+    "artifact": "vehicle-aidl-1.1.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "vehicle-data-1.1.11.jar",
+    "artifact": "vehicle-data-1.1.11.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "versionedparcelable-1.1.1.jar",
+    "artifact": "versionedparcelable-1.1.1.aar",
+    "notice_entries": []
+  },
+  {
+    "dependency": "viewpager-1.0.0.jar",
+    "artifact": "viewpager-1.0.0.aar",
+    "notice_entries": []
+  }
+]

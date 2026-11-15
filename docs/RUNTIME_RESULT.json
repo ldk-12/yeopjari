@@ -1,0 +1,19 @@
+{
+  "build": "passed: javac/D8/aapt2/zipalign",
+  "release_signature": "passed: dedicated RSA 3072 / APK v3",
+  "debuggable": false,
+  "install_launch": "passed on fresh separate PLEOS 2.1.0 AVD",
+  "initial_unknown_visibility": 8,
+  "park_visibility": 0,
+  "drive_requiresDO": true,
+  "drive_flags": 80,
+  "drive_visibility": 8,
+  "restricted_restart_allowed_true_count": 0,
+  "park_return_visibility": 0,
+  "callback_vs_getter_separately_measured": false,
+  "release_signed": true,
+  "real_vehicle_tested": false,
+  "initial_boot_observation": "Fresh AVD first 5-second Park sample had unknown Gear and correctly kept UI hidden. Subsequent 12-second phase run confirmed Park ready. No readiness deadline claim.",
+  "final_virtual_state": "Park, speed0, accelerator0, brake0, steering0",
+  "original_avd_data_preserved": true
+}
