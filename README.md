@@ -31,7 +31,7 @@ bash scripts/build-unsigned.sh
 
 결과: `build/coach-boundary-unsigned.apk`. javac → D8 → aapt2 → zipalign 순서로 빌드하며, 설치하려면 별도 서명이 필요하다. SDK 자동 다운로드와 서명은 스크립트에 포함하지 않는다.
 
-서명한 APK의 실행 명령:
+아래 명령은 별도로 전달받은 서명 APK가 있는 폴더에서 실행한다:
 
 ```sh
 adb install -r yeopjari_release.apk
@@ -39,6 +39,14 @@ adb shell am start -n app.pleos.coachboundary.integrated/app.pleos.coachboundary
 ```
 
 기존 debug 앱과 서명이 다르면 덮어쓸 수 없으므로 별도 AVD를 사용한다.
+
+### 시연 설정
+
+1. 일반 휴대폰 AVD가 아닌 PLEOS Connect 전용 AVD를 실행한다.
+2. 가상 차량을 **Park, 속도 0**으로 설정하고 앱을 연다.
+3. 차량 서비스가 연결되고 화면 제한이 해제되면 준비 화면이 나온다. SDK 초기화 중에는 숨김 상태를 유지한다.
+
+`CAR_DRIVE`와 `VEHICLE_BINDING` 권한은 Manifest에 선언돼 있다. 위치·마이크·네트워크 설정은 필요하지 않다. 시험에서는 가상 콘솔로 Drive와 Park를 전환했다.
 
 ## 테스트
 
@@ -65,8 +73,16 @@ docs/                    정책 근거·시험 기록
 licenses/                의존성 목록·원본 근거·고지
 ```
 
-## 배포
+## APK 위치
 
-현재 저장소는 소스만 제공한다. 서명 APK는 로컬에서 검증했으며 SDK 배포 조건 확인 후 업로드할 예정이다. 공모전 제출에는 release APK를 함께 준비해야 한다.
+**저장소와 GitHub Releases에는 아직 APK가 없다.** 별도 전달 묶음 `yeopjari_code_release.zip`의 루트에 `yeopjari_release.apk`가 들어 있다. 이 파일은 전용 배포 키로 서명하고 PLEOS 에뮬레이터에서 실행을 확인한 버전이다.
+
+- 버전: `0.3-integrated-demo` (versionCode 2)
+- 크기: 8,831,195 bytes
+- SHA-256: `af1e936836cc3dfaade847058040a7edb48eeb31a99a294c590e4c4abbda9eeb`
+
+SDK 배포 조건 확인 후 `apk/팀명_옆자리_release.apk`에 업로드하고 실제 다운로드 링크를 추가할 예정이다. 이 경로는 예정 경로이며 현재 다운로드할 수 없다. [공식 제출 안내](https://appdevchallenge.auto-hmg.io/guide/submission)의 APK 위치 요건은 그때 완료된다.
+
+## 라이선스
 
 `Vehicle 2.3.2`, `vehicle-aidl 1.1.1`, `vehicle-data 1.1.11`의 배포 조건과 추가 고지는 확인 중이다. 의존성 40개의 원본 해시와 37개의 Apache-2.0 근거는 [라이선스 문서](licenses/README.md)에 정리했다. [NOTICE](NOTICE)도 함께 확인한다. 앱 코드의 공개 라이선스는 아직 정하지 않았다.
