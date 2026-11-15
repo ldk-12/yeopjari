@@ -11,7 +11,7 @@ for path in root.rglob('*'):
     relative = path.relative_to(root)
     if not path.is_file() or any(part in {'.git', 'build', '__pycache__'} for part in relative.parts):
         continue
-    if str(relative) == 'apk/yeopjari_release.apk':
+    if str(relative) == 'apk/이동건_옆자리_release.apk':
         assert hashlib.sha256(path.read_bytes()).hexdigest() == 'af1e936836cc3dfaade847058040a7edb48eeb31a99a294c590e4c4abbda9eeb', 'Unexpected release APK'
         count += 1
         continue

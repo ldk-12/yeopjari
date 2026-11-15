@@ -34,7 +34,7 @@ bash scripts/build-unsigned.sh
 저장소 루트에서 APK를 설치하고 실행한다:
 
 ```sh
-adb install -r apk/yeopjari_release.apk
+adb install -r apk/이동건_옆자리_release.apk
 adb shell am start -n app.pleos.coachboundary.integrated/app.pleos.coachboundary.MainActivity
 ```
 
@@ -75,15 +75,15 @@ licenses/                의존성 목록·원본 근거·고지
 
 ## APK 위치
 
-[release APK 다운로드](apk/yeopjari_release.apk)
+[release APK 다운로드](apk/이동건_옆자리_release.apk)
 
-- 경로: `apk/yeopjari_release.apk`
+- 경로: `apk/이동건_옆자리_release.apk`
 - 버전: `0.3-integrated-demo` (versionCode 2)
 - 크기: 8,831,195 bytes
 - SHA-256: `af1e936836cc3dfaade847058040a7edb48eeb31a99a294c590e4c4abbda9eeb`
 - 전용 배포 키 서명, `debuggable=false`. PLEOS 에뮬레이터 실행 확인.
 
-공모전 검토용 APK다. 개인키와 암호는 포함하지 않는다. 최종 팀명에 맞춘 파일명은 접수 시 확인한다.
+공모전 검토용 APK다. 개인키와 암호는 포함하지 않는다. 개인 참가자 이동건의 공식 제출 파일명이다.
 
 ## 라이선스
 
