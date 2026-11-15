@@ -31,10 +31,10 @@ bash scripts/build-unsigned.sh
 
 결과: `build/coach-boundary-unsigned.apk`. javac → D8 → aapt2 → zipalign 순서로 빌드하며, 설치하려면 별도 서명이 필요하다. SDK 자동 다운로드와 서명은 스크립트에 포함하지 않는다.
 
-아래 명령은 별도로 전달받은 서명 APK가 있는 폴더에서 실행한다:
+저장소 루트에서 APK를 설치하고 실행한다:
 
 ```sh
-adb install -r yeopjari_release.apk
+adb install -r apk/yeopjari_release.apk
 adb shell am start -n app.pleos.coachboundary.integrated/app.pleos.coachboundary.MainActivity
 ```
 
@@ -75,13 +75,15 @@ licenses/                의존성 목록·원본 근거·고지
 
 ## APK 위치
 
-**저장소와 GitHub Releases에는 아직 APK가 없다.** 별도 전달 묶음 `yeopjari_code_release.zip`의 루트에 `yeopjari_release.apk`가 들어 있다. 이 파일은 전용 배포 키로 서명하고 PLEOS 에뮬레이터에서 실행을 확인한 버전이다.
+[release APK 다운로드](apk/yeopjari_release.apk)
 
+- 경로: `apk/yeopjari_release.apk`
 - 버전: `0.3-integrated-demo` (versionCode 2)
 - 크기: 8,831,195 bytes
 - SHA-256: `af1e936836cc3dfaade847058040a7edb48eeb31a99a294c590e4c4abbda9eeb`
+- 전용 배포 키 서명, `debuggable=false`. PLEOS 에뮬레이터 실행 확인.
 
-SDK 배포 조건 확인 후 `apk/팀명_옆자리_release.apk`에 업로드하고 실제 다운로드 링크를 추가할 예정이다. 이 경로는 예정 경로이며 현재 다운로드할 수 없다. [공식 제출 안내](https://appdevchallenge.auto-hmg.io/guide/submission)의 APK 위치 요건은 그때 완료된다.
+공모전 검토용 APK다. 개인키와 암호는 포함하지 않는다. 최종 팀명에 맞춘 파일명은 접수 시 확인한다.
 
 ## 라이선스
 

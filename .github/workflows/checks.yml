@@ -14,5 +14,5 @@ jobs:
         run: node tests/ui.cjs
       - name: Check Android integration boundaries
         run: python3 tests/integration.py
-      - name: Check source-only package
+      - name: Check source and approved release APK
         run: python3 tests/repository.py

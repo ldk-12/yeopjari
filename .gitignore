@@ -19,3 +19,5 @@ __pycache__/
 .env.*
 local.properties
 signing-password.txt
+
+!apk/yeopjari_release.apk
